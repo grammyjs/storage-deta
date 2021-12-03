@@ -11,7 +11,7 @@ npm install @grammyjs/storage-deta --save
 
 Deno
 ```ts
-import { DetaAdapter } from "https://https://deno.land/x/grammy_storage_deta/mod.ts";
+import { DetaAdapter } from "https://deno.land/x/grammy_storage_deta/mod.ts";
 ```
 
 
@@ -39,7 +39,7 @@ import {
   session,
   SessionFlavor,
 } from "https://deno.land/x/grammy@v1.4.3/mod.ts";
-import { DetaAdapter } from "https://https://deno.land/x/grammy_storage_deta/mod.ts";
+import { DetaAdapter } from "https://deno.land/x/grammy_storage_deta/mod.ts";
 
 // Define session structure
 interface SessionData {
