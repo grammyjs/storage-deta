@@ -4,7 +4,7 @@ import {
   session,
   SessionFlavor,
 } from "https://deno.land/x/grammy@v1.4.3/mod.ts";
-import { DetaAdapter } from "../mod.ts";
+import { DetaAdapter } from "../src/mod.ts";
 
 // Define session structure
 interface SessionData {
