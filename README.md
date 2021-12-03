@@ -5,15 +5,16 @@ Storage adapter that can be used to [store your session data](https://grammy.dev
 ## Installation
 
 Node
+
 ```bash
 npm install @grammyjs/storage-deta --save
 ```
 
 Deno
+
 ```ts
 import { DetaAdapter } from "https://deno.land/x/grammy_storage_deta/mod.ts";
 ```
-
 
 ## Introduction
 
@@ -27,11 +28,12 @@ You should now have:
 
 Put those values into the following example code:
 
-
 ## Usage
+
 You can check [examples](examples/) folder.
 
 Example of a message counter bot running on Deno:
+
 ```ts
 import {
   Bot,
@@ -67,5 +69,4 @@ bot.on("message", async (ctx) => {
 
 bot.catch((err) => console.error(err));
 bot.start();
-
 ```
