@@ -1,7 +1,7 @@
 // deno-lint-ignore-file
 
 import { Bot, Context, session, SessionFlavor } from "grammy";
-import { DetaAdapter } from "deta";
+import { DetaAdapter } from "@grammyjs/storage-deta";
 
 // Define session structure
 interface SessionData {
