@@ -1,0 +1,45 @@
+{
+  "name": "@grammyjs/storage-deta",
+  "version": "1.0.0",
+  "description": "deta.sh storage adapter for grammY",
+  "main": "out/mod.js",
+  "types": "out/mod.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "deno2node tsconfig.json",
+    "fmt": "deno fmt --config deno.json",
+    "lint": "deno lint --config deno.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/grammyjs/storage-deta.git"
+  },
+  "files": [
+    "out/"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grammyjs/storage-deta/issues"
+  },
+  "homepage": "https://github.com/grammyjs/storage-deta#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "deno2node": "^1.0.0",
+    "grammy": "^1.4.3"
+  },
+  "keywords": [
+    "grammy",
+    "telegram",
+    "bot",
+    "session",
+    "storage",
+    "adapter",
+    "middleware",
+    "deta",
+    "deta.sh"
+  ]
+}

@@ -1,4 +1,4 @@
-import { StorageAdapter } from "../deps.ts";
+import { StorageAdapter } from "./deps.deno.ts";
 
 export interface BaseConfig {
   baseName: string;
