@@ -1,1 +1,1 @@
-export type { StorageAdapter } from "https://deno.land/x/grammy@v1.4.3/mod.ts";
+export type { StorageAdapter } from "https://lib.deno.dev/x/grammy@1.x/mod.ts";
