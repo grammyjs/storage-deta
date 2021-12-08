@@ -20,7 +20,6 @@ bot.use(session({
   storage: new DetaAdapter<SessionData>({
     baseName: "session", // <-- Base name - your choice.
     projectKey: "", // <-- Project Key here.
-    projectId: "", // <-- Project ID here.
   }),
 }));
 

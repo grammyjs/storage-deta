@@ -1,5 +1,4 @@
 // deno-lint-ignore-file
-
 import { Bot, Context, session, SessionFlavor } from "grammy";
 import { DetaAdapter } from "@grammyjs/storage-deta";
 
@@ -17,7 +16,6 @@ bot.use(session({
   storage: new DetaAdapter<SessionData>({
     baseName: "session", // <-- Base name - your choice.
     projectKey: "", // <-- Project Key here.
-    projectId: "", // <-- Project ID here.
   }),
 }));
 
