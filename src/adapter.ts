@@ -3,7 +3,6 @@ import { StorageAdapter } from "./deps.deno.ts";
 export interface BaseConfig {
   baseName: string;
   projectKey: string;
-  projectId: string;
 }
 
 type Method = "GET" | "PUT" | "DELETE";
@@ -14,8 +13,9 @@ export class DetaAdapter<T> implements StorageAdapter<T> {
 
   constructor(project: BaseConfig) {
     this.project = project;
+    const projectId = project.projectKey.split("_")[0];
     this.rootUrl =
-      `https://database.deta.sh/v1/${project.projectId}/${project.baseName}/items`;
+      `https://database.deta.sh/v1/${projectId}/${project.baseName}/items`;
   }
 
   private async request(

@@ -18,13 +18,12 @@ import { DetaAdapter } from "https://deno.land/x/grammy_storage_deta/mod.ts";
 
 ## Introduction
 
-> Set up your Deta Base by creating a Deta project. Copy the Project ID and Project Key here.
+> Set up your Deta Base by creating a Deta project. Copy the Project Key to here.
 
 You should now have:
 
 1. A project key for your Deta.sh project.
-2. A project ID for Deta.sh project.
-3. A Telegram bot token.
+2. A Telegram bot token.
 
 Put those values into the following example code:
 
@@ -57,7 +56,6 @@ bot.use(session({
   storage: new DetaAdapter<SessionData>({
     baseName: "session", // <-- Base name - your choice.
     projectKey: "", // <-- Project Key here.
-    projectId: "", // <-- Project ID here.
   }),
 }));
 
