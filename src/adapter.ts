@@ -37,7 +37,7 @@ export class DetaAdapter<T> implements StorageAdapter<T> {
   async read(key: string) {
     key = `/${encodeURIComponent(key)}`;
     const res = await this.request("GET", key);
-    if (!res.ok && res.status === 404) return undefined;
+    if (!res.ok || res.status === 404) return undefined;
     return await res.json();
   }
 
