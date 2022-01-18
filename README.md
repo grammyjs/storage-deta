@@ -39,7 +39,7 @@ import {
   Context,
   session,
   SessionFlavor,
-} from "https://deno.land/x/grammy@v1.4.3/mod.ts";
+} from "https://deno.land/x/grammy/mod.ts";
 import { DetaAdapter } from "https://deno.land/x/grammy_storage_deta/mod.ts";
 
 // Define session structure
