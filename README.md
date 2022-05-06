@@ -1,3 +1,7 @@
+# Archived!!!
+
+All storages moved to our new monorepository, contained all adapters inside of it. Check it out: https://github.com/grammyjs/storages
+
 # Deta.sh Base storage adapter for [grammY](https://github.com/grammyjs/grammY)
 
 Storage adapter that can be used to [store your session data](https://grammy.dev/plugins/session.html) on [Deta.sh Base](https://deta.sh/) when using sessions.
